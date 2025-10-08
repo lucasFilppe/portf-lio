@@ -8,6 +8,9 @@ import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
 import vscode from './vscode.png';
 import firebase from './firebase.png';
+import react from './react.png';
+import nextjs from './nextjs.png';
+import github from './github.png';
 import figma from './figma.png';
 import git from './git.png';
 import mongodb from './mongodb.png';
@@ -48,6 +51,9 @@ export const assets = {
     project_icon_dark,
     vscode,
     firebase,
+    react,
+    nextjs,
+    github,
     figma,
     git,
     mongodb,
@@ -109,11 +115,11 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Linguagens', description: 'HTML, CSS, JavaScript React Js, Next Js, C' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Linguagens', description: 'HTML, CSS, JavaScript, C, python' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Educação', description: 'Cursando ciẽncia da computação' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projetos', description: 'Mais de 5 projetos' }
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projetos', description: 'Mais de 10 projetos' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.firebase, assets.react, assets.figma, assets.git, assets.nextjs, assets.github
 ];

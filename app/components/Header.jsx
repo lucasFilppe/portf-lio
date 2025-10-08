@@ -16,14 +16,15 @@ const Header = () => {
       Desenvolvedor Full Stack criando soluções digitais
         </h1>
         <p className="max-2xl mx-auto font-Ovo">
-        Especialista em JavaScript com experiência em React, Node.js e bancos de dados. 
+        Especialista em JavaScript com experiência em React, Typescript, Node.js e bancos de dados. 
         Transformo ideias em aplicações web performáticas e escaláveis. Histórico de desenvolvimento de aplicações web completas, com foco em performance, 
         usabilidade e código limpo.
         </p>
       
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
         <a 
-          href="https://www.linkedin.com/in/lucas-ramos-1b61b81bb/"
+          href="https://wa.me/5531971527535"
+          target={"_blank"}
           className="px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2"
         >
           Entre em contato
