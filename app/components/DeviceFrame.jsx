@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
+import { assets } from "@/assets/assets";
 
 const DeviceFrame = ({ title, url, screenshot, width = 280, height = 560 }) => {
   return (
@@ -38,9 +39,10 @@ const DeviceFrame = ({ title, url, screenshot, width = 280, height = 560 }) => {
         href={url}
         target="_blank"
         rel="noopener noreferrer"
-        className="mt-4 px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition"
+        className="px-10 mt-3 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2"
       >
-        Abrir projeto em {title} (Tela Cheia)
+        {title} (Tela Cheia)
+        <Image src={assets.right_arrow_white} alt="" className="w-4" />
       </a>
     </div>
   );
