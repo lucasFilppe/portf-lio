@@ -39,6 +39,8 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import rebu_web from './rebu-web.png';
+import terra_muckup from './terra-muckup.png';
 
 export const assets = {
     user_image,
@@ -81,8 +83,28 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    rebu_web,
+    terra_muckup
 };
+
+export const rebu = [
+  {
+    id: 1,
+    title: "Rebu Web",
+    description: "Plataforma web do projeto Rebu",
+    image: rebu_web
+  }
+];
+
+export const terra = [
+  {
+    id: 1,
+    title: "rerraplanner",
+    description: "Plataforma web do projeto terra Planner",
+    image: terra_muckup
+  }
+];
 
 export const workData = [
     {
