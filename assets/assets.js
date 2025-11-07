@@ -41,6 +41,12 @@ import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import rebu_web from './rebu-web.png';
 import terra_muckup from './terra-muckup.png';
+import cosa_muckup from './cosa-muckup.png';
+import canil_muckup from './canil-muckup.png'
+import card_muckup from './card-muckup.png';
+import finance_muckup from './finance-muckup.png';
+
+
 
 export const assets = {
     user_image,
@@ -85,7 +91,11 @@ export const assets = {
     right_arrow_bold,
     right_arrow_bold_dark,
     rebu_web,
-    terra_muckup
+    terra_muckup,
+    cosa_muckup,
+    canil_muckup,
+    card_muckup,
+    finance_muckup
 };
 
 export const rebu = [
@@ -94,6 +104,42 @@ export const rebu = [
     title: "Rebu Web",
     description: "Plataforma web do projeto Rebu",
     image: rebu_web
+  }
+];
+
+export const cosa = [
+  {
+    id: 1,
+    title: "Cosa Web",
+    description: "Plataforma web do projeto cosa",
+    image: cosa_muckup
+  }
+];
+
+export const canil = [
+  {
+    id: 1,
+    title: "Canil Web",
+    description: "Plataforma web do projeto canil",
+    image: canil_muckup
+  }
+];
+
+export const finance = [
+  {
+    id: 1,
+    title: "Fiance Web",
+    description: "Plataforma web finance",
+    image: finance_muckup
+  }
+];
+
+export const card = [
+  {
+    id: 1,
+    title: "card web",
+    description: "Plataforma web card",
+    image: card_muckup
   }
 ];
 

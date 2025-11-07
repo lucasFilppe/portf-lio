@@ -16,11 +16,44 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Projeto TerraLab(UFOP)",
+    title: "Terraplanner(UFOP)",
     imageSrc: assets.terra_muckup,
     imageAlt: "Mockup da aplicação",
     url: "https://www.terraplanner.org/",
   },
+
+  {
+    id: 3,
+    title: "Projeto Cosa Nostra",
+    imageSrc: assets.cosa_muckup,
+    imageAlt: "Mockup da aplicação cosa",
+    url: "https://carnacosa.vercel.app/",
+  },
+
+  {
+    id: 4,
+    title: "Projeto Canil Nostra",
+    imageSrc: assets.canil_muckup,
+    imageAlt: "Mockup da aplicação canil",
+    url: "https://carna-canil.vercel.app/",
+  },
+
+  {
+    id: 5,
+    title: "Projeto card",
+    imageSrc: assets.card_muckup,
+    imageAlt: "Mockup da aplicação card",
+    url: "https://explorer-card-xi.vercel.app/",
+  },
+
+  {
+    id: 6,
+    title: "Projeto finance",
+    imageSrc: assets.finance_muckup,
+    imageAlt: "Mockup da aplicação finance",
+    url: "https://discover-rocketseat-marathon.vercel.app/",
+  },
+
   // Adicione mais projetos aqui
 ];
 
@@ -51,17 +84,19 @@ const Services = () => {
           ))}
         </div>
 
-        <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
+        {/* Botões de ação */}
+        <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-4 mt-2">
           <a
-            href="https://github.com/lucasFilppe?tab=repositories"
-            target="_blank" // Boa prática para links externos
-            rel="noopener noreferrer" // Boa prática de segurança
-            className="px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2"
+            href="https://wa.me/5531971527535"
+            target="_blank"
+            className="px-6 sm:px-10 py-2 sm:py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 hover:bg-gray-800 transition-colors"
           >
-            Veja mais no GitHub
+            Entre em contato
             <Image src={assets.right_arrow_white} alt="" className="w-4" />
           </a>
+
         </div>
+        
       </div>
     </div>
   );

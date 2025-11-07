@@ -39,25 +39,7 @@ const Header = () => {
 
      
 
-      {/* Botões de ação */}
-      <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-4 mt-6">
-        <a
-          href="https://wa.me/5531971527535"
-          target="_blank"
-          className="px-6 sm:px-10 py-2 sm:py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 hover:bg-gray-800 transition-colors"
-        >
-          Entre em contato
-          <Image src={assets.right_arrow_white} alt="" className="w-4" />
-        </a>
-
-        <a
-          href="https://github.com/lucasFilppe?tab=repositories"
-          className="px-6 sm:px-10 py-2 sm:py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 hover:bg-gray-800 transition-colors"
-        >
-          Projetos
-          <Image src={assets.right_arrow_white} alt="" className="w-4" />
-        </a>
-      </div>
+     
     </header>
   );
 };
