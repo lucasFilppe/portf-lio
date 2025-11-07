@@ -73,18 +73,69 @@ const Navbar = () => {
         </div>
 
         {/* Menu mobile */}
-        <ul 
-          ref={sideMenuRef} 
-          className="fixed top-0 right-0 flex flex-col gap-6 py-20 w-64 h-screen bg-rose-50 transform translate-x-full transition-transform duration-300 z-50"
+        <ul
+          ref={sideMenuRef}
+          className="fixed top-0 right-0 flex flex-col gap-6 py-20 px-8 w-72 h-screen 
+             bg-white backdrop-blur-md shadow-2xl rounded-l-2xl 
+             transform translate-x-full transition-transform duration-300 ease-in-out z-50"
         >
-          <div className="absolute right-6 top-6" onClick={closeMenu}>
-            <Image src={assets.close_black} alt="Fechar" className="w-5 cursor-pointer"/>
-          </div>
-          <li><a href="#top" className="font-Ovo" onClick={closeMenu}>Início</a></li>
-          <li><a href="#sobre" className="font-Ovo" onClick={closeMenu}>Sobre mim</a></li>
-          <li><a href="#trabalho" className="font-Ovo" onClick={closeMenu}>Meu trabalho</a></li>
-          <li><a href="#contato" className="font-Ovo" onClick={closeMenu}>Contato</a></li>
+          {/* Botão de fechar */}
+          <button
+            onClick={closeMenu}
+            className="absolute right-5 top-5 p-2 rounded-full bg-rose-100 hover:bg-rose-200 
+               transition-colors duration-200"
+          >
+            <Image src={assets.close_black} alt="Fechar" className="w-5 h-5" />
+          </button>
+
+          {/* Links */}
+          <li>
+            <a
+              href="#top"
+              onClick={closeMenu}
+              className="font-Ovo text-lg text-gray-800 hover:text-rose-500 transition-colors duration-200"
+            >
+              Início
+            </a>
+          </li>
+          <li>
+            <a
+              href="#trabalho"
+              onClick={closeMenu}
+              className="font-Ovo text-lg text-gray-800 hover:text-rose-500 transition-colors duration-200"
+            >
+              Meu trabalho
+            </a>
+          </li>
+          <li>
+            <a
+              href="#habilidades"
+              onClick={closeMenu}
+              className="font-Ovo text-lg text-gray-800 hover:text-rose-500 transition-colors duration-200"
+            >
+              Habilidades
+            </a>
+          </li>
+          <li>
+            <a
+              href="#sobre"
+              onClick={closeMenu}
+              className="font-Ovo text-lg text-gray-800 hover:text-rose-500 transition-colors duration-200"
+            >
+              Sobre mim
+            </a>
+          </li>
+          <li>
+            <a
+              href="#contato"
+              onClick={closeMenu}
+              className="font-Ovo text-lg text-gray-800 hover:text-rose-500 transition-colors duration-200"
+            >
+              Contato
+            </a>
+          </li>
         </ul>
+
       </nav>
     </>
   );
