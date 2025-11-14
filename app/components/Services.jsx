@@ -32,7 +32,7 @@ const projectsData = [
 
   {
     id: 4,
-    title: "Projeto Canil Nostra",
+    title: "Projeto Carna Canil ",
     imageSrc: assets.canil_muckup,
     imageAlt: "Mockup da aplicação canil",
     url: "https://carna-canil.vercel.app/",

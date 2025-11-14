@@ -35,8 +35,8 @@ export default function ProjectMockupCard({ src, alt, title, projectUrl }) {
         <Image {...imageProps} />
       </div>
 
-      <div className="p-4 bg-white dark:bg-gray-800">
-        <h3 className="text-xl font-semibold text-gray-900 dark:text-white group-hover:text-red-600 dark:group-hover:text-red-400 transition-colors duration-300">
+      <div className="p-4 bg-black">
+        <h3 className="text-xl font-semibold text-white   transition-colors duration-300">
           {title}
         </h3>
         <p className="mt-1 text-sm text-white ">

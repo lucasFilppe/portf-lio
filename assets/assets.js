@@ -184,8 +184,8 @@ export const serviceData = [
 
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Linguagens', description: 'HTML, CSS, JavaScript, C, python' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Educação', description: 'Cursando ciẽncia da computação' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projetos', description: 'Mais de 10 projetos' }
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Educação', description: 'Cursando ciẽncia da computação(UFOP)' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projetos', description: 'Mais de 20 projetos' }
 ];
 
 export const toolsData = [
