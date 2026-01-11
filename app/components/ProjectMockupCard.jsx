@@ -11,7 +11,7 @@ import Link from 'next/link';
  * @param {string} props.title - O título do projeto.
  * @param {string} props.projectUrl - O URL para o projeto (link).
  */
-export default function ProjectMockupCard({ src, alt, title, projectUrl }) {
+export default function ProjectMockupCard({ src, alt, title, description,projectUrl }) {
   // Configurações da imagem (ajuste conforme necessário)
   const imageProps = {
     src: src,
@@ -39,6 +39,9 @@ export default function ProjectMockupCard({ src, alt, title, projectUrl }) {
         <h3 className="text-xl font-semibold text-white   transition-colors duration-300">
           {title}
         </h3>
+        <p className="mb-6 text-white text-sm sm:text-base md:text-lg font-Ovo leading-relaxed">
+          {description}
+        </p>
         <p className="mt-1 text-sm text-white ">
             Acessar Projeto
         </p>

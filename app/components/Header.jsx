@@ -26,20 +26,15 @@ const Header = () => {
 
       {/* Título principal */}
       <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-[66px] font-Ovo leading-snug sm:leading-tight md:leading-tight max-w-3xl">
-        Desenvolvedor Full Stack criando soluções digitais
+        Desenvolvedor Front-end focado em criar sites modernos, rápidos e
+        responsivos para pequenos negócios e projetos digitais.
       </h1>
 
       {/* Descrição */}
       <p className="mt-4 text-sm sm:text-base md:text-lg max-w-2xl font-Ovo leading-relaxed">
-        Especialista em JavaScript com experiência em React, TypeScript, Node.js
-        e bancos de dados. Transformo ideias em aplicações web performáticas e
-        escaláveis. Histórico de desenvolvimento de aplicações web completas,
-        com foco em performance, usabilidade e código limpo.
+        Transformo ideias em experiências web profissionais, com foco em
+        usabilidade, performance e presença online.
       </p>
-
-     
-
-     
     </header>
   );
 };
