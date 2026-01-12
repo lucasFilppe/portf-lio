@@ -74,7 +74,8 @@ const Services = () => {
           design responsivo.
         </p>
         {/* Layout de grade responsivo */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+
           {projectsData.map((project) => (
             <ProjectMockupCard
               key={project.id}

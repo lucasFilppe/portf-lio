@@ -26,8 +26,7 @@ const Header = () => {
 
       {/* Título principal */}
       <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-[66px] font-Ovo leading-snug sm:leading-tight md:leading-tight max-w-3xl">
-        Desenvolvedor Front-end focado em criar sites modernos, rápidos e
-        responsivos para pequenos negócios e projetos digitais.
+        Desenvolvedor Front-end que cria sites e interfaces web modernos para negócios e projetos digitais
       </h1>
 
       {/* Descrição */}
