@@ -91,11 +91,11 @@ const Services = () => {
         {/* Botões de ação */}
         <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-4 mt-2">
           <a
-            href="https://wa.me/5531971527535"
+            href="https://github.com/lucasFilppe?tab=repositories"
             target="_blank"
             className="px-6 sm:px-10 py-2 sm:py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 hover:bg-gray-800 transition-colors"
           >
-            Entre em contato
+            Veja mais projetos
             <Image src={assets.right_arrow_white} alt="" className="w-4" />
           </a>
         </div>

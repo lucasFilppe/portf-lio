@@ -54,9 +54,10 @@ const Navbar = () => {
 
         {/* Botões e menu mobile */}
         <div className="flex items-center gap-4">
-          <button>
+          {/** <button>
             <Image src={assets.moon_icon} alt="Modo noturno" className="w-6" />
           </button>
+          */}
 
           <a
             href="#contato"
