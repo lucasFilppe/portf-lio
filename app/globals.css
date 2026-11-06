@@ -1,9 +1,0 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-
-/*seleciona todos elementos html*/
-*{
-  font-family: outfit;
-}
